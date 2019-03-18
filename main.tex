@@ -1,0 +1,60 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\renewcommand{\baselinestretch}{1.5}
+\title{Report 1}
+\begin{document}
+\maketitle
+\textbf{1.Traceroute}
+
+\begin{verbatim}
+
+traceroute: Warning: usth.edu.vn has multiple addresses; using 104.27.160.15
+traceroute to usth.edu.vn (104.27.160.15), 64 hops max, 52 byte packets
+ 1  192.168.2.1 (192.168.2.1)  323.073 ms  51.318 ms  24.249 ms
+ 2  ci96.72-114.netnam.vn (101.96.72.114)  13.521 ms  3.452 ms  7.158 ms
+ 3  static.netnam.vn (119.17.219.126)  3.455 ms  3.001 ms  6.207 ms
+ 4  static.netnam.vn (119.17.219.17)  27.571 ms  40.470 ms  30.505 ms
+ 5  203.113.156.25 (203.113.156.25)  5.366 ms  3.636 ms  12.367 ms
+ 6  localhost (27.68.229.49)  45.378 ms  68.875 ms  28.793 ms
+ 7  localhost (27.68.240.8)  26.023 ms  30.662 ms  25.856 ms
+ 8  203.131.248.245 (203.131.248.245)  93.150 ms  92.929 ms  42.662 ms
+ 9  ae-12.r03.tkokhk01.hk.bb.gin.ntt.net (129.250.5.254)  63.206 ms  74.333 ms  100.903 ms
+10  ae-11.r24.tkokhk01.hk.bb.gin.ntt.net (129.250.6.99)  25.485 ms  42.732 ms  54.197 ms
+11  ae-6.r20.sngpsi07.sg.bb.gin.ntt.net (129.250.7.66)  76.204 ms  327.358 ms  102.037 ms
+12  ae-1.r01.sngpsi07.sg.bb.gin.ntt.net (129.250.3.100)  328.793 ms  80.193 ms  60.636 ms
+13  116.51.31.126 (116.51.31.126)  63.137 ms  52.399 ms  49.561 ms
+14  104.27.160.15 (104.27.160.15)  48.486 ms  50.242 ms  47.372 ms 
+    
+\end{verbatim}
+\textbf{2.Ping}
+
+\begin{verbatim}
+
+PING usth.edu.vn (104.27.160.15): 56 data bytes
+Request timeout for icmp_seq 0
+64 bytes from 104.27.160.15: icmp_seq=0 ttl=55 time=1003.821 ms
+64 bytes from 104.27.160.15: icmp_seq=1 ttl=55 time=431.630 ms
+64 bytes from 104.27.160.15: icmp_seq=2 ttl=55 time=657.096 ms
+64 bytes from 104.27.160.15: icmp_seq=3 ttl=55 time=678.226 ms
+64 bytes from 104.27.160.15: icmp_seq=4 ttl=55 time=496.484 ms
+64 bytes from 104.27.160.15: icmp_seq=5 ttl=55 time=63.361 ms
+64 bytes from 104.27.160.15: icmp_seq=6 ttl=55 time=333.086 ms
+64 bytes from 104.27.160.15: icmp_seq=7 ttl=55 time=368.534 ms
+64 bytes from 104.27.160.15: icmp_seq=8 ttl=55 time=372.242 ms
+64 bytes from 104.27.160.15: icmp_seq=9 ttl=55 time=193.081 ms
+64 bytes from 104.27.160.15: icmp_seq=10 ttl=55 time=216.075 ms
+64 bytes from 104.27.160.15: icmp_seq=11 ttl=55 time=247.906 ms
+64 bytes from 104.27.160.15: icmp_seq=12 ttl=55 time=255.366 ms
+64 bytes from 104.27.160.15: icmp_seq=13 ttl=55 time=280.117 ms
+64 bytes from 104.27.160.15: icmp_seq=14 ttl=55 time=297.616 ms
+64 bytes from 104.27.160.15: icmp_seq=15 ttl=55 time=322.084 ms
+64 bytes from 104.27.160.15: icmp_seq=16 ttl=55 time=340.790 ms
+64 bytes from 104.27.160.15: icmp_seq=17 ttl=55 time=361.994 ms
+64 bytes from 104.27.160.15: icmp_seq=18 ttl=55 time=60.798 ms
+64 bytes from 104.27.160.15: icmp_seq=19 ttl=55 time=202.752 ms
+64 bytes from 104.27.160.15: icmp_seq=20 ttl=55 time=59.588 ms
+    
+\end{verbatim}
+
+
+\end{document}
